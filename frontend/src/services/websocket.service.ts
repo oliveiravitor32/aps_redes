@@ -5,7 +5,7 @@ import { ConnectionStateEnum } from "../enums/connection-state.enum";
 import { IChatMessageResponse } from "../interfaces/chat-message-response.interface";
 import { IChatMessage } from "../interfaces/chat-message.interface";
 
-const WS_URL = "https://192.168.0.17:8080/ws";
+const WS_URL = "https://1323-177-81-179-109.ngrok-free.app/ws";
 
 class WebsocketService {
   private client: Client | null = null;
