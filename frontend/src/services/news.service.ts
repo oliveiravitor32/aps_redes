@@ -1,4 +1,4 @@
-const API_URL = "http://192.168.0.17:8080";
+const API_URL = "https://192.168.0.17:8080";
 
 class NewsService {
   async getAllNews(): Promise<any> {

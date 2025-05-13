@@ -2,7 +2,7 @@ import { reactive } from "vue";
 
 import { IChatRoom } from "../interfaces/chat-room.interface";
 
-const API_URL = "http://192.168.0.17:8080";
+const API_URL = "https://192.168.0.17:8080";
 class ApiService {
   chatRooms = reactive<IChatRoom[]>([]);
 

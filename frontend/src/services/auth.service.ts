@@ -2,7 +2,7 @@ import { ref } from "vue";
 import router from "../router";
 import axios from "axios";
 
-const API_URL = "http://192.168.0.17:8080"; // Ajuste para a URL do seu servidor Spring Boot
+const API_URL = "https://192.168.0.17:8080"; // Ajuste para a URL do seu servidor Spring Boot
 
 class AuthService {
   private user = ref<string | null>(null);
